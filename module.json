@@ -1,0 +1,82 @@
+{
+    "name": "el-rastro-esp",
+    "title": "EL RASTRO ESP",
+    "author": "Luisma",
+    "description": "Ayudas Rastro en ESP",
+    "packs": [
+        {
+            "name": "motivaciones",
+            "label": "MOTIVACIONES",
+            "type": "Item",
+            "system": "investigator",
+            "path": "packs/motivaciones.db",
+            "entity": "Item",
+            "module": "el-rastro-esp"
+        },
+        {
+            "name": "profesiones",
+            "label": "PROFESIONES",
+            "type": "Item",
+            "system": "investigator",
+            "path": "packs/profesiones.db",
+            "entity": "Item",
+            "module": "el-rastro-esp"
+        },
+        {
+            "name": "habilidades",
+            "label": "HABILIDADES",
+            "type": "Item",
+            "system": "investigator",
+            "path": "packs/habilidades.db",
+            "entity": "Item",
+            "module": "el-rastro-esp"
+        },
+        {
+            "name": "armas",
+            "label": "ARMAS",
+            "type": "Item",
+            "system": "investigator",
+            "path": "packs/armas.db",
+            "entity": "Item",
+            "module": "el-rastro-esp"
+        },
+        {
+            "name": "equipo",
+            "label": "EQUIPO",
+            "type": "Item",
+            "system": "investigator",
+            "path": "packs/equipo.db",
+            "entity": "Item",
+            "module": "el-rastro-esp"
+        },
+        {
+            "name": "ayudas",
+            "label": "AYUDAS",
+            "type": "JournalEntry",
+            "path": "packs/ayudas.db",
+            "entity": "JournalEntry",
+            "module": "el-rastro-esp"
+        },
+        {
+            "name": "escenas",
+            "label": "ESCENAS",
+            "type": "Scene",
+            "path": "packs/escenas.db",
+            "entity": "Scene",
+            "module": "el-rastro-esp"
+        }
+    ],
+    "id": "el-rastro-esp",
+    "authors": [
+        {
+            "name": "Luisma"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
+    },
+    "version": "1.1"
+}
